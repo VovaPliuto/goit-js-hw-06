@@ -61,7 +61,11 @@ function onDestroyBtnClick(e) {
   for (const box of boxesToRemove) {
     box.remove();
   }
+
+  numbInput.value = null;
+  boxesAmount = 0;
 }
+
 
 
 
